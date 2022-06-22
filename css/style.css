@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja1 {
+    position: relative;
+    display: flex;
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    
+}
+.caja2 {
+    position: relative;
+    display: flex;
+    background-color:white;
+    height: 25rem;
+    width: 100%;
+    
+}
+.caja1 {
+    display: flex;
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    
+}
+
+#cuatro{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    animation-delay:1 ;
+    animation-duration: 1s;
+}
+
+#tres{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    animation-delay:1.7 ;
+    animation-duration: 1.7 s ;
+}
+
+
+#dos{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    animation-delay:4 ;
+    animation-duration:4s ;
+}
+
+
+#uno{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay:4 ;
+    animation-duration:4s ;
+}
+
+
+
+
